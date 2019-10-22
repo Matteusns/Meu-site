@@ -1,0 +1,207 @@
+/* ==================== INICIO NAVBAR ====================*/
+
+.img-logo {
+    width: 125px;
+}
+
+.bg-transparent {
+    background-color: transparent;
+    transition: all 0.5s linear 0s;
+}
+.bg-dark {
+    transition: all 0.5s ease 0s;
+}
+.progress-bar{
+    background-color: #ffffff;
+    height: 10px;
+    border: 1px solid white;
+}
+/* ==================== FIM NAVBAR ==================== */
+
+/* ==================== INICIO header ====================*/
+
+.header {
+    height: 100vh;
+    background-color: #000;
+}
+
+.header-text-area h1 {
+    text-transform: uppercase;
+    padding-top: 30%;
+    color: white;
+    font-size: 30px;
+}
+.header-text-area h1 span {
+    font-size: 60px;
+    font-weight: 600;
+    color: #26429e;
+
+}
+
+
+.header-text-area p {
+    padding: 30px 0;
+    text-align: justify;
+    color: white;
+}
+
+/* ==================== FIM HEADER ==================== */
+
+/* ==================== INICIO ABOUT ====================*/
+
+.perfil {
+    padding: 40px;
+    border: 1px solid #c9c9c9;
+
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.30);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.30);
+    transition: all 0.5s ease 0s;
+}
+
+.perfil:hover {
+    border: 1px solid #4a4a48;
+
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.40);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.40);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.40);
+}
+/* ========== Imagem e descricao ========== */
+.image-profile {
+    position: relative;
+}
+
+.image-profile img {
+    max-width: 100%;
+    
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.descricao-imagem {
+    padding: 30px 30px 20px;
+    background: #000;
+    bottom: 0;
+    height: 30%;
+    left: 1px;
+    position: absolute;
+    transition: all 0.5s ease 0s;
+    width: 99.5%;
+}
+
+.descricao-imagem:hover {
+    height: 80%;
+}
+
+.descricao-imagem ul {
+    list-style: outside;
+    margin: 0;
+    padding: 0 0 7px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.descricao-imagem li {
+
+    display: inline;
+
+}
+
+/* ========== Icone da descricao ========== */
+.icon-desc{
+    color:#fff;
+    font-size: 23px;
+    margin: 0 5px
+}
+.fa-facebook:hover{
+    transition: all 0.5s ease 0s;
+    color:#1774eb;
+}
+/* ========== Skills da descricao ========== */
+.skills{
+    margin: 15px 0
+}
+.skills-title{
+    padding:0 10px 0;
+}
+.skills strong{
+    text-transform: uppercase;
+    font-size: 14px;
+    color:white;
+    padding: 0;
+    margin: 0;
+    font-weight: 450;
+}
+.skills span{
+    color:white;
+    font-size: 14px;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+/* ========== Botão da descricao ========== */
+.btnCurriculo{
+    margin: 10px 0;
+    width: 100%;
+}
+/* ========== descricao principal ========== */
+.descricao-profile h2{
+    margin-top: 20px;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.descricao-profile h2 span{
+    font-weight: 400;
+}
+
+.descricao-profile p{
+    text-align: justify;
+}
+
+.desc-title hr{
+    background-color: #333;
+    height: 0.4px;
+}
+.desc-title h2 span{
+    color: #111f4d;
+    font-weight: bold;
+}
+.perfil-list{
+    margin:30px 0 10px 0;
+}
+.perfil-list li{
+    margin: 10px 0 10px 0;
+    border-bottom: 1px solid #adadad;
+}
+.title{
+    float: left;
+    color:#5e5e5e;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.cont{
+    
+    color:#5e5e5e;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+/* ==================== FIM ABOUT ====================*/
+
+/* ==================== INICIO EXPERIENCIA ====================*/
+.experiencia-title{
+    padding: 20px;
+}
+.experiencia-title h2{
+    font-weight: 700;
+}
+
+.title-ex h3{
+    color:white;
+    background-image: linear-gradient(to right, #020205 , #111f4d);
+    padding: 20px;
+}
+
+/* ==================== FIM EXPERIENCIA ====================*/
